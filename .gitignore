@@ -1,0 +1,11 @@
+# Ignorar arquivos executáveis (Windows)
+*.exe
+
+# Ignorar binários compilados e objetos (Linux/macOS)
+*.out
+*.o
+*.out.dSYM/
+
+# Ignorar arquivos de log ou temporários de compilação
+*.log
+*.tmp
