@@ -3,7 +3,7 @@
 # include <stdio.h>
 
 int main(){
-    printf("--- lendo 4x4 ---");
+    printf("--- lendo 4x4 ---\n");
     int mat[4][4];
 
     // leitura: 
@@ -17,7 +17,7 @@ int main(){
     // print: 
     for(int i = 0; i < 4; i++){
         for(int j = 0; j < 4; j++){
-            printf("%d", mat[i][j]);
+            printf("%d\n", mat[i][j]);
         }
     }
 }
